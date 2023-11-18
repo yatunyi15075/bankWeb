@@ -1,3 +1,5 @@
+---
+
 # BankWeb
 
 This is a simple bank website created with React and Vite, featuring a beautiful UI and an engaging call to action. The website serves as a landing page for the bank's application, which is already available on the app store.
@@ -24,6 +26,11 @@ To run this React application locally, follow these steps:
 3. Install dependencies:
    ```bash
    npm install
+   ```
+
+   Additionally, install the Bootstrap dependency:
+   ```bash
+   npm install --save react-bootstrap
    ```
 
 4. Start the development server:
@@ -53,6 +60,14 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 - **@vitejs/plugin-react:** Uses Babel for Fast Refresh.
 - **@vitejs/plugin-react-swc:** Uses SWC for Fast Refresh.
+
+## Bootstrap Dependency
+
+This project uses Bootstrap, and the dependency was added using the following command:
+
+```bash
+npm install --save react-bootstrap
+```
 
 ## License
 
