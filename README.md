@@ -31,11 +31,11 @@ To run this React application locally, follow these steps:
    npm run dev
    ```
 
-The application should now be running locally at `http://localhost:3000`.
+The application should now be running locally at `http://localhost:5173`.
 
 ## Usage
 
-After installation, you can access the bank website by navigating to [http://localhost:3000](http://localhost:3000) in your web browser.
+After installation, you can access the bank website by navigating to [http://localhost:3000](http://localhost:5173) in your web browser.
 
 ## Contributing
 
