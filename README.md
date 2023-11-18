@@ -1,8 +1,61 @@
-# React + Vite
+# BankWeb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple bank website created with React and Vite, featuring a beautiful UI and an engaging call to action. The website serves as a landing page for the bank's application, which is already available on the app store.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Beautiful UI: The website boasts an aesthetically pleasing user interface.
+- Amazing Call to Action: Engage users with a compelling call to action.
+
+## Installation
+
+To run this React application locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yatunyi15075/bankWeb.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd bankWeb
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+The application should now be running locally at `http://localhost:3000`.
+
+## Usage
+
+After installation, you can access the bank website by navigating to [http://localhost:3000](http://localhost:3000) in your web browser.
+
+## Contributing
+
+Contributions are welcome! Whether you want to add new features or make existing buttons functional, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add a new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+## Vite and React Setup
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Currently, two official plugins are available:
+
+- **@vitejs/plugin-react:** Uses Babel for Fast Refresh.
+- **@vitejs/plugin-react-swc:** Uses SWC for Fast Refresh.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
