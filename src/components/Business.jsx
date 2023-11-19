@@ -1,7 +1,10 @@
+import {Button} from 'react-bootstrap';
+
 import { features } from "../constants";
 import styles from "../style";
 import style, {layout} from '../style';
-//import Button from './Button';
+
+
 
 const FeatureCard = ({icon, title, content, index}) => (
     <div className={`flex flex-row p-6 rounded-[240px] 
@@ -36,7 +39,11 @@ const Business= () => {
                     Money. But with hundreds of credit cards 
                     on the market. 
                 </p>
-                 
+                <Button type="button" className={`py-4 px-6 
+                bg-blue-gradient font-poppins font-medium 
+                text-[18px] text-primary outline-none mt-10 rounded-[10px]`}>
+                    Get Started
+                </Button>
             </div>
 
             <div className={`${layout.sectionImg} flex-col`}>
@@ -47,7 +54,7 @@ const Business= () => {
 
             </div>
 
-
+            
         </section>
     )
 }
